@@ -1,10 +1,10 @@
-package calculadora.controller;
+package calculadora.operacoes;
 
 import calculadora.model.Conta;
 
 public class Multiplica {
 
-	public double multiplicar(Conta conta) {
+	public float multiplicar(Conta conta) {
 		return conta.getValorUm() * conta.getValorDois();
 	}	
 }

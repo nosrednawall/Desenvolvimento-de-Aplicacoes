@@ -1,10 +1,10 @@
-package calculadora.controller;
+package calculadora.operacoes;
 
 import calculadora.model.Conta;
 
 public class Subtrai {
-	
-	public double subtrair(Conta conta) {
+
+	public float subtrair(Conta conta) {
 		return conta.getValorUm() - conta.getValorDois();
-	}	
+	}
 }

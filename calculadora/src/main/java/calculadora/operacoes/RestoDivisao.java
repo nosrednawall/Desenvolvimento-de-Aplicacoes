@@ -1,10 +1,10 @@
-package calculadora.controller;
+package calculadora.operacoes;
 
 import calculadora.model.Conta;
 
 public class RestoDivisao {
 	
-	public double resto(Conta conta) {
+	public float resto(Conta conta) {
 		return conta.getValorUm() % conta.getValorDois();
 	}	
 }

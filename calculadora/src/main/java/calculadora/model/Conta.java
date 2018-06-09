@@ -2,27 +2,32 @@ package calculadora.model;
 
 public class Conta {
 
-	private double valorUm;
-	private double valorDois;
+	private float valorUm;
+	private float valorDois;
 
+	public Conta(float valorUm,float valorDois) {
+		this.valorUm = valorUm;
+		this.valorDois = valorDois;
+	}
+	
 	@Override
 	public String toString() {
 		return "Conta [valorUm=" + valorUm + ", valorDois=" + valorDois + "]";
 	}
 
-	public double getValorDois() {
+	public float getValorDois() {
 		return valorDois;
 	}
 
-	public void setValorDois(double valorDois) {
+	public void setValorDois(float valorDois) {
 		this.valorDois = valorDois;
 	}
 
-	public double getValorUm() {
+	public float getValorUm() {
 		return valorUm;
 	}
 
-	public void setValorUm(double valorUm) {
+	public void setValorUm(float valorUm) {
 		this.valorUm = valorUm;
 	}
 
