@@ -1,0 +1,19 @@
+1- Desenvolva em Java uma calculadora que, dados dois valores,
+apresente os resultados das operações entre esses números. As
+operações são as seguintes:
+
+    Divisão
+    Multiplicação
+    Soma
+    Subtração
+    Resto da divisão
+
+Cada operação deve ser uma classe do programa.
+
+1.1- Descreva o que é necessário em Java para que esta calculadora
+seja apresentada em uma página Web.
+
+1.2- Utilizando Java, desenvolva a mesma calculadora para que seja
+apresentada em modo de página Web. Neste caso, o usuário deverá
+informar em campos específicos cada um dos valores e a operação
+desejada.
