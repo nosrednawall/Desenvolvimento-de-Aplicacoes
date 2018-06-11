@@ -15,15 +15,15 @@ public class CalculadoraController {
 
 		switch (operacao) {
 		case "SOMA":
-			return "O resultado será " + new Soma().somar(conta);
+			return "O resultado obtido foi: " + new Soma().somar(conta);
 		case "DIVISAO":
-			return "O resultado será " + new Divide().dividir(conta);
+			return "O resultado obtido foi: " + new Divide().dividir(conta);
 		case "MULTIPLICACAO":
-			return "O resultado será " + new Multiplica().multiplicar(conta);
+			return "O resultado obtido foi: " + new Multiplica().multiplicar(conta);
 		case "SUBTRACAO":
-			return "O resultado será " + new Subtrai().subtrair(conta);
+			return "O resultado obtido foi: " + new Subtrai().subtrair(conta);
 		default:
-			return "O resultado será " + new Divide().dividir(conta);
+			return "O resultado obtido foi: " + new Divide().dividir(conta);
 		}
 	}
 }
