@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="pt-BR" ng-app="Clinica veterinária">
+
+<head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Recrutaif</title>
+
+    <link rel="stylesheet" href="resources/css/bootstrap.css" />
+</head>
+
+<body>
+    <header class="jumbotron">
+        <div class="container">
+            <h1>Clinica veterinária</h1>
+        </div>
+    </header>
+    <div class="container">
+        <form name="dados" onSubmit="return enviardados();" action="" method="POST">
+
+            <div class="form-group">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" class="form-control" placeholder="Insira seu nome completo" required />
+            </div>
+
+            <div class="form-group">
+                <label for="endereco">Endereço</label>
+                <input type="text" id="endereco" class="form-control" placeholder="ex: Rua Leopoldo Diana" required />
+            </div>
+
+            <div class="form-group">
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" class="form-control" placeholder="Insira seu nome completo" required />
+            </div>
+
+            <div class="form-group">
+                <label for="nome-animal">Nome animal</label>
+                <input type="text" id="nome-animal" class="form-control" placeholder="Nome do pet" required />
+            </div>
+
+            <div class="form-group">
+                <label for="porte">Porte</label>
+                <select id="porte" class="form-control">
+                    <option>Selecione</option>
+                    <option value="PEQUENO">Pequeno</option>
+                    <option value="MEDIO">Médio</option>
+                    <option value="GRANDE">Grande</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="especie">Espécie</label>
+                <input type="text" id="especie" class="form-control" placeholder="ex: Gato" required />
+            </div>
+
+            <div class="form-group">
+                <label for="raca">Raça</label>
+                <input type="text" id="raca" class="form-control" placeholder="ex: Egito" required />
+            </div>
+
+            <div class="form-group">
+                <label for="sexo">Sexo</label>
+                <div class="form-group">
+                    <input type="radio" name="gender" value="male" > Macho
+                    <br>
+                    <input type="radio" name="gender" value="female" > Femea
+                    <br>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="cor">Cor do animal</label>
+                <input type="text" id="cor" class="form-control" placeholder="ex: Preto" required />
+            </div>
+
+            <div class="form-group">
+                <label for="observacoes">Observações</label>
+                <textarea rows="4" cols="50" id="observacoes" class="form-control" placeholder="ex: Não come peixe" required></textarea>
+            </div>
+
+            <input type="submit" value="Salvar" class="btn btn-primary" />
+        </form>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p class="mt-5 mb-3 text-muted">Clinica veterinária &copy; 2018</p>
+        </div>
+    </footer>
+    <script src="resources/js/bootstrap.js"></script>
+    <script src="resources/js/validacao-formulario.js"></script>
+</body>
+
+</html>
