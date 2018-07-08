@@ -1,0 +1,9 @@
+Crie um programa que jogue “adivinhe o número”. O programa seleciona o número a ser 
+adivinhado randomicamente em um intervalo de 1 a 100 sem mostrar para o usuário. O programa
+ mostra uma mensagem (JLabel) – Eu tenho um número entre 1 e 100, você pode adivinhá-lo? 
+ Informe seu primeiro palpite. 
+• Um JTextField deve ser usado na captura do valor. Para cada tentativa de adivinhação 
+podem aparecer algumas mensagens: “Tá muito frio!”, “Tá frio!”, “Tá esquentando!”,v “Tá esquente!” e “Acertou!”.
+• Quando a resposta estiver correta, não deve ser permitida mais a edição no JTextField.
+• Um JButton deve permitir um novo jogo. Quando o JButton é clicado, um novo número
+ randômico deve ser gerado e o JTextField ser editável novamente.

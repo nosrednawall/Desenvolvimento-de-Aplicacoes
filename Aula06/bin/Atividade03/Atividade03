@@ -1,0 +1,14 @@
+Exercício 03
+Crie um programa com uma interface gráfica em Java que permita calcular o
+ peso de uma pessoa em vários planetas. O programa deve receber o peso do 
+ usuário na terra, o planeta desejado (de acordo com a tabela abaixo) e exibir na tela o 
+ peso do usuário no respectivo planeta.
+Gravidade relativa	Planeta
+0,37....................Mercúrio
+0,88....................Vênus
+0,38....................Marte
+2,64....................Júpiter
+1,15....................Saturno
+1,17....................Urano
+A equação para calcular o peso em outro planeta é:
+Pplaneta = ((Pterra/10)*gplaneta)

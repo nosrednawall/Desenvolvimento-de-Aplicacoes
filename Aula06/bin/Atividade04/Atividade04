@@ -1,0 +1,19 @@
+Exercício 04
+Escreva um programa em Java que implemente uma interface gráfica para o jogo pedra,
+ papel, tesoura. Neste jogo, o usuário e o computador escolhem entre pedra, papel ou tesoura. 
+ Sabendo que pedra ganha de tesoura, papel ganha de pedra e tesoura ganha de papel, exiba na tela o 
+ ganhador: usuário ou computador. Para essa implementação, assuma que o número 0 representa pedra, 1 
+ representa papel e 2 representa tesoura.
+O seu programa deve permitir que o jogador possa escolher entre pedra, papel e tesoura através de um 
+grupo de RadioButtons.
+Dica: Para sortear a jogada do computador, pode adicionar a seguinte função ao programa:
+public static int randInt(int min, int max)
+{
+ java.util.Random rand = new java.util.Random();
+ int randomNum = rand.nextInt((max - min) + 1) + min;
+ return randomNum;
+} 
+A função randInt gera aleatoriamente um número entre min e max. Por exemplo, para sortear um número 
+entre 0 e 2, a seguinte chamada deve ser realizada:
+x = randInt(0, 2) ;  /* A variável x recebe um numero entre 0 e 2 */
+Exercícios 3 e 4 propostos pelo professor Lima, E. S. (UNIRIO)

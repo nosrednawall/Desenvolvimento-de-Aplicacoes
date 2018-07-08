@@ -1,0 +1,30 @@
+Situação-Problema - Executar comandos MySql via Java (Problema real. guj.com.br)
+
+"Pessoal estou com um probleminha aqui na empresa, seguinte temos uma base de dados
+ e a manipulamos através do MySql-Front, ele tem opções de se realizar a OTIMIZAÇÃO, 
+ CHECAGEM, ANÁLISE E REPARAÇÃO da base lá em TOOLS>>TABLE-DIAGNOSTICS. Pois bem, no
+  momento todas essas etapas são realizadas “NA UNHA” daí estamos desenvolvendo um 
+  forma de que isso seja feito através de um pequeno aplicativo Java que será chamado
+   via tarefas agendadas do Windows e fará o processo todo. Queremos que os comandos 
+   sejam passados como se fossem no console direto para o MySql e a assim o processo 
+   seja realizado."
+
+Descreva de maneira textual, que solução você proporia a este desenvolvedor.
+
+Fundamentação
+
+Bancos de dados e JDBC - https://www.caelum.com.br/apostila-java-web/bancos-de-dados-e-jdbc/
+
+Capítulo 24 Acesso a bancos de dados com JDBC do livro Java: como programar. 
+Deitel. 10 edição. Pearson. Seção 24.6 Manipulando bancos de dados com o JDBC
+
+
+Atividade prática
+
+Com base nas leituras e análises feitas na fundamentação, proponha uma solução 
+(código simples) para a situação-problema de conexão com o banco de dados apresentado anteriormente.
+
+
+
+
+

@@ -1,0 +1,9 @@
+Exercício 01
+Crie uma tela de cadastro de clientes para receber:
+- Nome
+- E-mail
+- Senha
+- Sexo
+- Estilo de Leitura (Esporte, Educação, Romance, Aventura, culinária)
+- Time de Futebol
+O botão envia os dados para um objeto a ser criado e limpa os campos.

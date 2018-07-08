@@ -1,0 +1,73 @@
+Exercício 1
+Uma agência financeira precisa saber a taxa de câmbio do dólar americano e 
+do euro em relação ao Real em determinado dia da semana. Dessa forma ela poderá 
+tomar a decisão de repassar o valor do câmbio a seus clientes sem que hajam 
+prejuízos para ambos.
+
+Moeda estrangeira
+	Valor em Real
+	Inflação/dia
+
+
+
+
+50 Guaranis
+	0,03
+	0,01
+
+
+Boliviano
+	0,54
+	0,02
+
+
+Dólar Canadense
+	2,83
+	0,08
+
+
+Dólar EUA
+	3,74
+	0,08
+
+
+Euro
+	4,34
+	0,08
+
+
+Libra Esterlina
+	4,95
+	0,08
+
+
+Peso argentino
+	0,14
+	0,02
+
+
+Peso mexicano
+	0,18
+	0,02
+
+
+Peso uruguaio
+	0,12
+	0,02
+
+
+Para fins de exercício, as moedas estrangeiras sofrem uma taxa de inflação 
+por dia conforme o peso da moeda no mercado internacional. Por exemplo, se 
+o cliente quiser fazer uma compra de Pesos argentino de um dia para outro,
+ deverá ser acrescido o custo de dois centavos por peso argentino comprado
+  ao montante final.
+
+    Com base no capítulo 12, componentes GUI: parte 1 (página 374) do livro 
+    Java, como programar 10 edição de Paul e Harvey Deitel, descreva como 
+    seria desenvolvida uma aplicação em Java com interface gráfica para 
+    solucionar este problema.
+
+    Crie um programa com uma interface gráfica em Java que permita
+     receber os valores e a moeda que se deseja comprar e calcule 
+     o valor que o cliente deverá pagar, conforme o prazo de compra 
+     contratado com o agente financeiro.
